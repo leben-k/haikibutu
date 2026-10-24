@@ -197,9 +197,9 @@ main { padding-bottom: 40px; }
 }
 
 /* ---------- イラスト ---------- */
-.illust { margin: 18px 0; text-align: center; }
+.illust { margin: 18px 0; text-align: left; }
 .illust img { width: 100%; border-radius: 14px; border: 2px solid var(--line); background: #fff; }
-.illust figcaption { font-size: 15px; margin-top: 6px; font-weight: 700; color: #333; }
+.illust figcaption { text-align: left; font-size: 15px; margin-top: 6px; font-weight: 700; color: #333; }
 
 /* ---------- 囲み ---------- */
 .box { border-radius: 14px; padding: 14px 16px; margin: 16px 0; border: 3px solid; }
@@ -295,7 +295,7 @@ tbody th { background: var(--bg-soft); font-weight: 900; white-space: nowrap; }
 /* ---------- ページ移動（トップ・先頭へ） ---------- */
 .page-nav { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; margin: 28px 0 8px; }
 .page-nav a {
-  flex: 1 1 200px; max-width: 320px; display: flex; align-items: center; justify-content: center;
+  flex: 1 1 200px; max-width: 320px; display: flex; align-items: center; justify-content: flex-start; text-align: left;
   min-height: 52px; padding: 10px 16px; border-radius: 12px; text-decoration: none; font-weight: 900; font-size: 17px;
   border: 3px solid var(--green); color: var(--green); background: var(--green-bg);
 }
