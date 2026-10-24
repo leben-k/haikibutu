@@ -271,22 +271,16 @@ tbody th { background: var(--bg-soft); font-weight: 900; white-space: nowrap; }
   color: #444; border: 1px solid #888; border-radius: 4px; padding: 0 8px; line-height: 1.6;
 }
 .ad-slot {
-  width: 300px; max-width: 100%;
-  min-height: 300px;            /* 300×300を基本に確保 */
+  /* 楽天アフィリエイトのガイドラインにより、広告は「指定された大きさのまま」表示します。
+     縮小・拡大・切り取りはしません。画面より横に大きい広告は、枠の中で横にスクロールして全体を見られます。 */
+  width: 100%;
   margin: 0 auto;
-  display: flex; align-items: center; justify-content: center; flex-direction: column;
-  overflow: visible;            /* はみ出しても切らない */
+  overflow-x: auto; overflow-y: visible; -webkit-overflow-scrolling: touch;
+  text-align: center;
 }
-.ad-slot a { display: block; line-height: 0; }
-.ad-slot img {
-  display: block;
-  width: 300px; max-width: 100%;
-  height: auto;                 /* 縦横比を保つ */
-  aspect-ratio: auto;
-  object-fit: contain;          /* 画像を切らずに全体を表示 */
-  border: 0;
-}
-.ad-slot iframe, .ad-slot ins, .ad-slot > div { max-width: 100%; }
+.ad-slot > * { margin-left: auto; margin-right: auto; }
+.ad-slot img { max-width: none; vertical-align: top; }
+.ad-slot iframe, .ad-slot table { max-width: none; margin-left: auto; margin-right: auto; }
 /* 広告コードを入れていない枠は表示しない */
 .ad-box:has(.ad-slot:empty) { display: none; }
 
