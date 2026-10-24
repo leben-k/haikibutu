@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" role="img" aria-labelledby="t">
+  <title id="t">家庭から出る一般廃棄物と、工場や工事現場から出る産業廃棄物の比較イラスト</title>
+  <g font-family="'Hiragino Sans','Noto Sans JP','Noto Sans CJK JP','Yu Gothic',Meiryo,sans-serif" font-weight="800">
+  <!-- left -->
+  <rect x="10" y="10" width="380" height="340" rx="20" fill="#e8f5e9" stroke="#2e7d32" stroke-width="4"/>
+  <text x="200" y="52" text-anchor="middle" font-size="28" fill="#1b5e20">一般廃棄物</text>
+  <path d="M90 170 L170 105 L250 170Z" fill="#e57373" stroke="#333" stroke-width="3"/>
+  <rect x="105" y="170" width="130" height="90" fill="#fff3e0" stroke="#333" stroke-width="3"/>
+  <rect x="155" y="205" width="35" height="55" fill="#8d6e63" stroke="#333" stroke-width="3"/>
+  <rect x="120" y="185" width="28" height="25" fill="#bbdefb" stroke="#333" stroke-width="3"/>
+  <path d="M270 260 q-18 -55 22 -62 q40 7 22 62z" fill="#fafafa" stroke="#333" stroke-width="3"/>
+  <path d="M285 198 l7 -14 l7 14" fill="none" stroke="#333" stroke-width="3"/>
+  <text x="200" y="296" text-anchor="middle" font-size="19" fill="#212121">家庭・お店・事務所のごみ</text>
+  <text x="200" y="330" text-anchor="middle" font-size="20" fill="#1b5e20">処理するのは ▶ 市町村</text>
+  <!-- right -->
+  <rect x="410" y="10" width="380" height="340" rx="20" fill="#e3f2fd" stroke="#1565c0" stroke-width="4"/>
+  <text x="600" y="52" text-anchor="middle" font-size="28" fill="#0d47a1">産業廃棄物</text>
+  <path d="M470 260 V160 L520 130 V160 L570 130 V160 L620 130 V260Z" fill="#b0bec5" stroke="#333" stroke-width="3"/>
+  <rect x="635" y="110" width="22" height="150" fill="#78909c" stroke="#333" stroke-width="3"/>
+  <g fill="#cfd8dc"><circle cx="652" cy="95" r="12"/><circle cx="670" cy="78" r="15"/><circle cx="694" cy="66" r="12"/></g>
+  <rect x="490" y="200" width="30" height="25" fill="#fff59d" stroke="#333" stroke-width="3"/>
+  <rect x="560" y="200" width="30" height="25" fill="#fff59d" stroke="#333" stroke-width="3"/>
+  <rect x="680" y="205" width="40" height="55" rx="4" fill="#1e88e5" stroke="#333" stroke-width="3"/>
+  <rect x="725" y="215" width="40" height="45" rx="4" fill="#ff8f00" stroke="#333" stroke-width="3"/>
+  <text x="600" y="296" text-anchor="middle" font-size="19" fill="#212121">工場・工事現場など（20種類）</text>
+  <text x="600" y="330" text-anchor="middle" font-size="20" fill="#0d47a1">処理するのは ▶ 出した会社</text>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" role="img" aria-labelledby="t">
+  <title id="t">見つけたら連絡：捨てている最中は警察110番、捨てられたごみは市役所・町村役場へ</title>
+  <g font-family="'Hiragino Sans','Noto Sans JP','Noto Sans CJK JP','Yu Gothic',Meiryo,sans-serif" font-weight="900" text-anchor="middle">
+  <rect width="800" height="320" rx="24" fill="#f3e5f5"/>
+  <!-- phone -->
+  <g transform="translate(90 40)">
+    <rect width="130" height="220" rx="20" fill="#263238"/>
+    <rect x="10" y="25" width="110" height="160" rx="6" fill="#e3f2fd"/>
+    <text x="65" y="115" font-size="44" fill="#c62828">110</text>
+    <circle cx="65" cy="203" r="10" fill="#546e7a"/>
+  </g>
+  <text x="155" y="300" font-size="21" fill="#4a148c">捨てている最中 ▶ 警察</text>
+  <!-- city hall -->
+  <g transform="translate(470 50)">
+    <path d="M0 60 L120 0 L240 60Z" fill="#7986cb" stroke="#333" stroke-width="3"/>
+    <rect x="15" y="60" width="210" height="140" fill="#e8eaf6" stroke="#333" stroke-width="3"/>
+    <g fill="#9fa8da" stroke="#333" stroke-width="2">
+      <rect x="35" y="80" width="30" height="30"/><rect x="105" y="80" width="30" height="30"/><rect x="175" y="80" width="30" height="30"/>
+      <rect x="35" y="130" width="30" height="30"/><rect x="175" y="130" width="30" height="30"/>
+    </g>
+    <rect x="100" y="140" width="40" height="60" fill="#5c6bc0" stroke="#333" stroke-width="2"/>
+  </g>
+  <text x="590" y="300" font-size="21" fill="#4a148c">捨てられたごみ ▶ 市役所など</text>
+  <text x="400" y="160" font-size="40" fill="#7b1fa2">or</text>
+  </g>
+</svg>

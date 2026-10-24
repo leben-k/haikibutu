@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 330" role="img" aria-labelledby="t">
+  <title id="t">してよいこと：離れた場所から写真を撮って連絡。してはいけないこと：注意する、触る、追いかける</title>
+  <g font-family="'Hiragino Sans','Noto Sans JP','Noto Sans CJK JP','Yu Gothic',Meiryo,sans-serif" font-weight="900" text-anchor="middle">
+  <rect x="10" y="10" width="380" height="310" rx="20" fill="#e8f5e9" stroke="#2e7d32" stroke-width="5"/>
+  <circle cx="200" cy="70" r="40" fill="none" stroke="#2e7d32" stroke-width="12"/>
+  <!-- person with phone -->
+  <g transform="translate(150 125)">
+    <circle cx="0" cy="0" r="20" fill="#ffcc80" stroke="#333" stroke-width="3"/>
+    <rect x="-22" y="22" width="44" height="70" rx="10" fill="#43a047" stroke="#333" stroke-width="3"/>
+    <path d="M18 40 L45 18" stroke="#333" stroke-width="7" stroke-linecap="round"/>
+    <rect x="40" y="0" width="18" height="30" rx="3" fill="#212121"/>
+  </g>
+  <g stroke="#333" stroke-width="3"><rect x="270" y="190" width="45" height="30" fill="#bdbdbd"/><circle cx="330" cy="210" r="11" fill="#212121"/></g>
+  <path d="M215 140 L265 185" stroke="#2e7d32" stroke-width="3" stroke-dasharray="7 6"/>
+  <text x="200" y="268" font-size="22" fill="#1b5e20">離れて写真・メモ</text>
+  <text x="200" y="300" font-size="22" fill="#1b5e20">そして連絡</text>
+
+  <rect x="410" y="10" width="380" height="310" rx="20" fill="#ffebee" stroke="#c62828" stroke-width="5"/>
+  <g stroke="#c62828" stroke-width="12" stroke-linecap="round"><path d="M565 35 L635 105"/><path d="M635 35 L565 105"/></g>
+  <g transform="translate(540 145)">
+    <circle cx="0" cy="0" r="20" fill="#ffcc80" stroke="#333" stroke-width="3"/>
+    <rect x="-22" y="22" width="44" height="70" rx="10" fill="#e53935" stroke="#333" stroke-width="3"/>
+    <path d="M22 35 L55 30" stroke="#333" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(680 145)">
+    <circle cx="0" cy="0" r="20" fill="#bcaaa4" stroke="#333" stroke-width="3"/>
+    <rect x="-22" y="22" width="44" height="70" rx="10" fill="#424242" stroke="#333" stroke-width="3"/>
+  </g>
+  <text x="605" y="140" font-size="26" fill="#c62828">!!</text>
+  <text x="600" y="268" font-size="22" fill="#b71c1c">注意・追いかけ・</text>
+  <text x="600" y="300" font-size="22" fill="#b71c1c">さわるのはダメ</text>
+  </g>
+</svg>

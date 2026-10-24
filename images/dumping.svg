@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" role="img" aria-labelledby="t">
+  <title id="t">夜の山道でトラックがごみを捨てている様子。これは不法投棄です</title>
+  <rect width="800" height="340" fill="#283593"/>
+  <circle cx="680" cy="70" r="30" fill="#fff9c4"/><circle cx="694" cy="62" r="28" fill="#283593"/>
+  <g fill="#fff"><circle cx="120" cy="50" r="2"/><circle cx="260" cy="90" r="2"/><circle cx="420" cy="40" r="2"/><circle cx="560" cy="110" r="2"/></g>
+  <path d="M0 220 L130 120 L250 210 L380 130 L520 230 L800 160 V340 H0Z" fill="#1b5e20"/>
+  <rect y="270" width="800" height="70" fill="#4e342e"/>
+  <g>
+    <rect x="230" y="200" width="170" height="70" rx="6" fill="#ef6c00" stroke="#111" stroke-width="3" transform="rotate(-14 230 270)"/>
+    <rect x="400" y="205" width="90" height="65" rx="8" fill="#f57c00" stroke="#111" stroke-width="3"/>
+    <rect x="420" y="215" width="50" height="28" rx="4" fill="#90caf9" stroke="#111" stroke-width="3"/>
+    <circle cx="270" cy="275" r="22" fill="#212121"/><circle cx="440" cy="275" r="22" fill="#212121"/>
+    <path d="M490 225 L640 190 L640 270 L490 250Z" fill="#fff59d" opacity=".35"/>
+  </g>
+  <g stroke="#111" stroke-width="3">
+    <rect x="150" y="248" width="45" height="30" fill="#bdbdbd"/>
+    <path d="M120 285 q-8 -38 18 -40 q26 2 18 40z" fill="#616161"/>
+    <circle cx="210" cy="272" r="14" fill="#212121"/>
+  </g>
+  <rect x="40" y="20" width="250" height="60" rx="30" fill="#e53935"/>
+  <text x="165" y="60" text-anchor="middle" font-family="'Hiragino Sans','Noto Sans JP','Noto Sans CJK JP','Yu Gothic',Meiryo,sans-serif" font-weight="900" font-size="28" fill="#fff">これが不法投棄</text>
+</svg>

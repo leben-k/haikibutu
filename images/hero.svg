@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" role="img" aria-labelledby="t">
+  <title id="t">山のふもとに捨てられたごみと「不法投棄は犯罪です」の看板</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfe6ff"/><stop offset="1" stop-color="#eaf7ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#sky)"/>
+  <circle cx="680" cy="80" r="42" fill="#ffd54f"/>
+  <g fill="#fff" opacity=".95">
+    <ellipse cx="150" cy="70" rx="60" ry="20"/><ellipse cx="190" cy="58" rx="40" ry="20"/>
+    <ellipse cx="470" cy="95" rx="55" ry="16"/>
+  </g>
+  <path d="M0 260 L170 110 L300 230 L420 120 L600 260 L800 150 L800 400 L0 400Z" fill="#7cb87f"/>
+  <path d="M0 290 Q200 240 400 285 T800 270 L800 400 L0 400Z" fill="#5a9e5d"/>
+  <rect y="330" width="800" height="70" fill="#8d6e4f"/>
+  <!-- trees -->
+  <g>
+    <rect x="60" y="250" width="10" height="40" fill="#6d4c2f"/><path d="M40 260 L65 195 L90 260Z" fill="#2e7d32"/>
+    <rect x="110" y="240" width="10" height="50" fill="#6d4c2f"/><path d="M88 252 L115 180 L142 252Z" fill="#388e3c"/>
+    <rect x="720" y="235" width="10" height="45" fill="#6d4c2f"/><path d="M698 246 L725 175 L752 246Z" fill="#2e7d32"/>
+  </g>
+  <!-- trash pile -->
+  <g stroke="#333" stroke-width="3">
+    <rect x="300" y="268" width="80" height="60" rx="6" fill="#e0e0e0"/>
+    <rect x="312" y="280" width="56" height="34" rx="4" fill="#90a4ae"/>
+    <path d="M380 330 q-10 -60 30 -60 q40 0 30 60z" fill="#424242"/>
+    <path d="M410 270 l-6 -12 h12z" fill="#424242"/>
+    <circle cx="470" cy="312" r="22" fill="#212121"/><circle cx="470" cy="312" r="9" fill="#757575"/>
+    <rect x="250" y="300" width="48" height="30" fill="#bcaaa4"/>
+    <path d="M500 330 l20 -40 l30 6 l-12 34z" fill="#a1887f"/>
+  </g>
+  <!-- sign -->
+  <g>
+    <rect x="590" y="240" width="10" height="95" fill="#6d4c2f"/>
+    <rect x="525" y="180" width="140" height="70" rx="8" fill="#fff" stroke="#c62828" stroke-width="5"/>
+    <text x="595" y="208" text-anchor="middle" font-family="'Hiragino Sans','Noto Sans JP','Noto Sans CJK JP','Yu Gothic',Meiryo,sans-serif" font-weight="900" font-size="20" fill="#c62828">不法投棄は</text>
+    <text x="595" y="236" text-anchor="middle" font-family="'Hiragino Sans','Noto Sans JP','Noto Sans CJK JP','Yu Gothic',Meiryo,sans-serif" font-weight="900" font-size="22" fill="#c62828">犯罪です！</text>
+  </g>
+  <!-- big X -->
+  <g stroke="#e53935" stroke-width="14" stroke-linecap="round" opacity=".85">
+    <path d="M270 250 L540 345"/><path d="M540 250 L270 345"/>
+  </g>
+</svg>

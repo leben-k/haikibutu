@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" role="img" aria-labelledby="t">
+  <title id="t">不法投棄の罰則：個人は5年以下の拘禁刑または1000万円以下の罰金、法人は3億円以下の罰金</title>
+  <g font-family="'Hiragino Sans','Noto Sans JP','Noto Sans CJK JP','Yu Gothic',Meiryo,sans-serif" font-weight="900" text-anchor="middle">
+  <rect width="800" height="360" rx="24" fill="#fff3f3"/>
+  <!-- jail -->
+  <g transform="translate(55 45)">
+    <rect width="190" height="170" rx="10" fill="#eceff1" stroke="#37474f" stroke-width="5"/>
+    <g stroke="#37474f" stroke-width="9"><path d="M38 0V170M76 0V170M114 0V170M152 0V170"/></g>
+    <circle cx="95" cy="70" r="24" fill="#ffcc80"/>
+    <text x="95" y="215" font-size="26" fill="#b71c1c">5年以下の</text>
+    <text x="95" y="248" font-size="26" fill="#b71c1c">拘禁刑</text>
+  </g>
+  <text x="305" y="175" font-size="30" fill="#424242">または</text>
+  <!-- money -->
+  <g transform="translate(365 45)">
+    <rect x="10" y="40" width="160" height="80" rx="8" fill="#c8e6c9" stroke="#2e7d32" stroke-width="4"/>
+    <text x="90" y="95" font-size="38" fill="#1b5e20">¥</text>
+    <rect y="60" width="160" height="80" rx="8" fill="#a5d6a7" stroke="#2e7d32" stroke-width="4"/>
+    <text x="80" y="115" font-size="38" fill="#1b5e20">¥</text>
+    <text x="85" y="215" font-size="26" fill="#b71c1c">1,000万円</text>
+    <text x="85" y="248" font-size="26" fill="#b71c1c">以下の罰金</text>
+  </g>
+  <!-- company -->
+  <g transform="translate(580 30)">
+    <rect x="25" y="50" width="130" height="140" fill="#90a4ae" stroke="#37474f" stroke-width="4"/>
+    <g fill="#fff59d"><rect x="45" y="70" width="25" height="22"/><rect x="110" y="70" width="25" height="22"/><rect x="45" y="110" width="25" height="22"/><rect x="110" y="110" width="25" height="22"/></g>
+    <rect x="75" y="150" width="30" height="40" fill="#5d4037"/>
+    <text x="90" y="230" font-size="24" fill="#0d47a1">会社（法人）は</text>
+    <text x="90" y="266" font-size="30" fill="#b71c1c">3億円以下</text>
+  </g>
+  <text x="400" y="345" font-size="20" fill="#424242">※ 両方が科されることもあります</text>
+  </g>
+</svg>
