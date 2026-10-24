@@ -10,6 +10,31 @@
   var els = document.querySelectorAll('.js-year');
   for (var i = 0; i < els.length; i++) { els[i].textContent = yearText; }
 
+  /* ---- スマホ：ヘッダー「主な区分」のドロップダウン ---- */
+  var nav = document.querySelector('.site-nav');
+  var toggle = document.querySelector('.nav-toggle');
+  if (nav && toggle) {
+    var setOpen = function (open) {
+      nav.classList.toggle('open', open);
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    };
+    toggle.addEventListener('click', function (e) {
+      e.stopPropagation();
+      setOpen(!nav.classList.contains('open'));
+    });
+    // 項目をタップしたら閉じる
+    nav.addEventListener('click', function (e) {
+      if (e.target.closest && e.target.closest('a')) { setOpen(false); }
+    });
+    // メニューの外をタップしたら閉じる
+    document.addEventListener('click', function (e) {
+      if (!nav.contains(e.target)) { setOpen(false); }
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') { setOpen(false); }
+    });
+  }
+
   /* ---- 「目次へ戻る」ボタンの表示切り替え ---- */
   var toTop = document.querySelector('.to-toc');
   if (toTop) {

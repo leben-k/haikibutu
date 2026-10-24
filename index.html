@@ -26,9 +26,7 @@
 <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 <link rel="sitemap" type="application/xml" href="sitemap.xml">
 <link rel="manifest" href="site.webmanifest">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700;900&display=swap" rel="stylesheet">
+<script>document.documentElement.className+=' js';</script>
 <link rel="stylesheet" href="css/style.css">
 <script type="application/ld+json">
 {
@@ -69,11 +67,17 @@
 <header class="site-header">
   <div class="wrap">
     <p class="site-title"><a href="./"><img src="images/favicon.svg" alt="" width="32" height="32">不法投棄罰</a></p>
-    <nav class="site-nav" aria-label="サイト内メニュー">
-      <ul>
+    <nav class="site-nav" aria-label="ページ内メニュー">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu">主な区分<span class="nav-arrow" aria-hidden="true">▼</span></button>
+      <ul id="site-menu">
+        <li><a href="#top">トップ</a></li>
         <li><a href="#toc">目次</a></li>
-        <li><a href="about.html">運営者情報</a></li>
-        <li><a href="privacy.html">プライバシー</a></li>
+        <li><a href="#s1">廃棄物とは</a></li>
+        <li><a href="#proper">正しい処分方法</a></li>
+        <li><a href="#s3">不法投棄とは</a></li>
+        <li><a href="#s4">不法投棄の罰則</a></li>
+        <li><a href="#s5">不法投棄を防ぐ方法</a></li>
+        <li><a href="#s8">見つけたら</a></li>
       </ul>
     </nav>
   </div>

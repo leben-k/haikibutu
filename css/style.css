@@ -18,7 +18,7 @@
   --purple: #5b1a8a;        /* 連絡・通報 */
   --purple-bg: #f3e5f5;
   --line: #c9d3c4;
-  --header-h: 60px;
+  --header-h: 104px;
   --gutter: 16px;
 }
 
@@ -34,7 +34,7 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--text);
-  font-family: "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
+  font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, "Noto Sans JP", "Noto Sans CJK JP", Meiryo, sans-serif;
   font-weight: 500;          /* 薄くならないよう少し太め */
   font-size: 17px;
   line-height: 1.85;
@@ -75,13 +75,18 @@ img { max-width: 100%; height: auto; }
 }
 .site-title a { white-space: nowrap; color: #fff; text-decoration: none; display: flex; align-items: center; gap: 8px; }
 .site-title img { width: 32px; height: 32px; }
-.site-nav ul { list-style: none; margin: 0; padding: 0; display: flex; gap: 4px; flex-wrap: wrap; justify-content: flex-end; }
+.site-header .wrap { max-width: 1100px; }
+.site-nav { width: 100%; }
+.site-nav ul { list-style: none; margin: 0; padding: 0 0 4px; display: flex; gap: 6px; flex-wrap: wrap; }
 .site-nav a {
+  background: rgba(255,255,255,.14); white-space: nowrap;
   display: inline-block; color: #fff; text-decoration: none;
   padding: 8px 10px; border-radius: 8px; font-size: 14px; font-weight: 700;
   min-height: 40px; line-height: 24px;
 }
 .site-nav a:hover, .site-nav a[aria-current="page"] { background: rgba(255,255,255,.2); }
+
+.nav-toggle { display: none; }
 
 /* ---------- パンくず ---------- */
 .breadcrumb { font-size: 14px; padding: 10px 0 0; }
@@ -353,12 +358,30 @@ tbody th { background: var(--bg-soft); font-weight: 900; white-space: nowrap; }
 
 /* ---------- スマホ向けの調整 ---------- */
 @media (max-width: 560px) {
-  :root { --header-h: 96px; }
-  .site-nav { width: 100%; }
-  .site-nav ul { justify-content: space-between; flex-wrap: nowrap; }
-  .site-nav li { flex: 1; }
-  .site-nav a { display: block; text-align: center; background: rgba(255,255,255,.14); padding: 8px 4px; }
   table { min-width: 0; font-size: 15px; }
   tbody th { white-space: normal; }
   th, td { padding: 8px; }
+}
+
+/* ---------- スマホ：ヘッダーのメニューをドロップダウンに ---------- */
+@media (max-width: 560px) {
+  :root { --header-h: 64px; }
+  .site-header .wrap { flex-wrap: nowrap; }
+  .site-nav { width: auto; }
+  .js .nav-toggle {
+    display: inline-flex; align-items: center; gap: 6px;
+    font: inherit; font-size: 16px; font-weight: 900; color: var(--green);
+    background: #fff; border: 0; border-radius: 10px;
+    padding: 8px 14px; min-height: 44px; cursor: pointer; white-space: nowrap;
+  }
+  .nav-arrow { font-size: 12px; transition: transform .2s; }
+  .site-nav.open .nav-arrow { transform: rotate(180deg); }
+  .js .site-nav ul {
+    display: none; position: absolute; left: 0; right: 0; top: 100%;
+    flex-direction: column; gap: 6px; padding: 10px 16px 16px;
+    background: var(--green); box-shadow: 0 8px 14px rgba(0,0,0,.25);
+    max-height: calc(100vh - var(--header-h)); overflow-y: auto;
+  }
+  .js .site-nav.open ul { display: flex; }
+  .js .site-nav a { display: block; font-size: 17px; padding: 12px 14px; min-height: 48px; border-radius: 10px; }
 }

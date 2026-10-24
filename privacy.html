@@ -21,9 +21,7 @@
 <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 <link rel="sitemap" type="application/xml" href="sitemap.xml">
 <link rel="manifest" href="site.webmanifest">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700;900&display=swap" rel="stylesheet">
+<script>document.documentElement.className+=' js';</script>
 <link rel="stylesheet" href="css/style.css">
 <script type="application/ld+json">
 {
@@ -41,11 +39,17 @@
 <header class="site-header">
   <div class="wrap">
     <p class="site-title"><a href="./"><img src="images/favicon.svg" alt="" width="32" height="32">不法投棄罰</a></p>
-    <nav class="site-nav" aria-label="サイト内メニュー">
-      <ul>
+    <nav class="site-nav" aria-label="ページ内メニュー">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu">主な区分<span class="nav-arrow" aria-hidden="true">▼</span></button>
+      <ul id="site-menu">
+        <li><a href="./">トップ</a></li>
         <li><a href="./#toc">目次</a></li>
-        <li><a href="about.html">運営者情報</a></li>
-        <li><a href="privacy.html" aria-current="page">プライバシー</a></li>
+        <li><a href="./#s1">廃棄物とは</a></li>
+        <li><a href="./#proper">正しい処分方法</a></li>
+        <li><a href="./#s3">不法投棄とは</a></li>
+        <li><a href="./#s4">不法投棄の罰則</a></li>
+        <li><a href="./#s5">不法投棄を防ぐ方法</a></li>
+        <li><a href="./#s8">見つけたら</a></li>
       </ul>
     </nav>
   </div>
@@ -68,9 +72,8 @@
       <li><a href="#p4"><span class="num">4</span><span class="txt">広告（楽天アフィリエイト）</span><span class="tag">本文へ ↓</span></a></li>
       <li><a href="#p5"><span class="num">5</span><span class="txt">Cookie（クッキー）</span><span class="tag">本文へ ↓</span></a></li>
       <li><a href="#p6"><span class="num">6</span><span class="txt">外部サービスのプライバシーポリシー</span><span class="tag">本文へ ↓</span></a></li>
-      <li><a href="#p7"><span class="num">7</span><span class="txt">開示・訂正・削除</span><span class="tag">本文へ ↓</span></a></li>
-      <li><a href="#p8"><span class="num">8</span><span class="txt">ポリシーの変更</span><span class="tag">本文へ ↓</span></a></li>
-      <li><a href="#disclaimer"><span class="num">9</span><span class="txt">免責事項</span><span class="tag">本文へ ↓</span></a></li>
+      <li><a href="#p8"><span class="num">7</span><span class="txt">ポリシーの変更</span><span class="tag">本文へ ↓</span></a></li>
+      <li><a href="#disclaimer"><span class="num">8</span><span class="txt">免責事項</span><span class="tag">本文へ ↓</span></a></li>
     </ol>
     <ul class="toc-pages">
       <li><a href="./"><span class="num">⌂</span><span class="txt">トップページ</span><span class="tag">ページへ →</span></a></li>
@@ -128,23 +131,16 @@
     <ul class="cards">
       <li><span class="card-t"><span class="emoji">🛒</span>楽天グループ（楽天アフィリエイト）</span><a href="https://privacy.rakuten.co.jp/" target="_blank" rel="noopener">楽天グループ 個人情報保護方針</a></li>
       <li><span class="card-t"><span class="emoji">✉️</span>Formspree（連絡先フォーム）</span><a href="https://formspree.io/legal/privacy-policy/" target="_blank" rel="noopener">Formspree Privacy Policy（英語）</a></li>
-      <li><span class="card-t"><span class="emoji">🌐</span>GitHub（サイトの公開）</span><a href="https://docs.github.com/ja/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">GitHub の一般プライバシーステートメント</a></li>
-      <li><span class="card-t"><span class="emoji">🔤</span>Google Fonts（文字の表示）</span><a href="https://policies.google.com/privacy?hl=ja" target="_blank" rel="noopener">Google プライバシーポリシー</a></li>
     </ul>
   </section>
 
-  <section class="section t-purple" id="p7" aria-labelledby="h-p7">
-    <h2 id="h-p7"><span class="h-num">7</span>開示・訂正・削除</h2>
-    <p>ご本人から、お預かりしている個人情報の確認・訂正・削除のご希望があった場合は、本人であることを確認したうえで対応します。<a href="about.html#contact">連絡先フォーム</a>からご連絡ください。</p>
-  </section>
-
   <section class="section t-blue" id="p8" aria-labelledby="h-p8">
-    <h2 id="h-p8"><span class="h-num">8</span>ポリシーの変更</h2>
+    <h2 id="h-p8"><span class="h-num">7</span>ポリシーの変更</h2>
     <p>このプライバシーポリシーは、必要に応じて変更することがあります。変更後の内容は、このページに掲載した時点から有効になります。</p>
   </section>
 
   <section class="section t-red" id="disclaimer" aria-labelledby="h-disclaimer">
-    <h2 id="h-disclaimer"><span class="h-num">9</span>免責事項</h2>
+    <h2 id="h-disclaimer"><span class="h-num">8</span>免責事項</h2>
     <div class="box danger">
       <p class="box-title">必ずお読みください</p>
       <ul>
